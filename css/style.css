@@ -1,0 +1,197 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* Estilos generales */
+
+a{
+    text-decoration: none;
+}
+img{
+    width: 60%;
+}
+iframe{
+
+    width: 50%;
+    height: 300px;
+}
+.boton{
+    padding: 5px 20px;
+    background-color:#0141f2;
+    border: none;
+    border-radius: 20px;
+    color: #eee;
+    font-weight: 700;
+    cursor: pointer;
+}
+section{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 0 5%;
+    
+}
+
+h2{
+    font-size: 30px;
+    font-weight: bold;
+}
+p{
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    color: #666;
+}
+/* Estilos del Header */
+
+.header{
+    width: 100%;
+    height: 100px;
+    background-color: #f6f6f6;
+    padding: 10px 5%;
+    position: fixed;
+    box-shadow: 0px 0px 10px #ccc;
+}
+.header .logo{
+    margin-bottom: 10px;
+}
+.header .logo img{
+    width: 50px;
+}
+.header p{
+    font-size: 20px;
+    display: inline;
+    font-weight: 800;
+}
+
+/* Estilos del nav */
+
+.header .nav ul{
+    list-style: none;
+}
+.header .nav li{
+    display: inline;
+    margin-right: 10px;
+    
+}
+.header .nav a{
+    color: #222;
+    font-weight: 500;
+}
+
+/* Estilos del main */
+.main{
+    padding-top: 100px;
+}
+
+.main .hero{
+    width: 100%;
+    padding-top: 220px;
+    padding-bottom: 220px;
+    text-align: center;
+    
+}
+.main .hero h1{
+    color: #fff;
+    font-size: 50px;
+}
+.hero p{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+
+/* Estilos del Footer */
+
+.footer{
+    width: 100%;
+    padding: 20px 5%;
+    background-color: #f6f6f6;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.footer .footer-enlaces li{
+    display: inline;
+    padding:0px  10px;
+
+}
+
+.footer-enlaces li a{
+    color: #222;
+}
+.footer .footer-copyright{
+    margin-top: 30px;
+}
+.footer img{
+    width: 70px;
+}
+.footer .footer-copyright p{
+    margin-top: 10px;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+
+/* Estilos de Contacto */
+.contacto-section{
+    padding-top: 50px;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+.contacto-section img{
+    width: 100px;
+}
+.contacto-section form{
+    width: 350px;
+    height: auto;
+    padding: 20px;
+    background-color:#fff;
+    box-shadow: 0px 0px 10px #ccc;
+}
+
+.contacto-section form input, .contacto-section form textarea{
+    width: 90%;
+    padding: 5px;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+/* poniendo el fondo a las secciones */
+.hero-index{
+    background: linear-gradient(#00000000, rgba(0, 0, 0, 0.765)),url(../img/Wallpapers/index.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.hero-multimedia{
+    background: linear-gradient(#00000000, rgba(0, 0, 0, 0.765)),url(../img/Wallpapers/Multimedia.avif);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.hero-manga{
+    background: linear-gradient(#00000000, rgba(0, 0, 0, 0.765)),url(../img/Wallpapers/MangaAnime.webp);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.hero-arcos{
+    background: linear-gradient(#00000000, rgba(0, 0, 0, 0.765)),url(../img/Wallpapers/Arcos.jpg);
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
